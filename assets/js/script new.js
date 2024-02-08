@@ -4,7 +4,7 @@ var frontPage = document.querySelector(".title-page");
 var timerEl = document.querySelector(".timer-count");
 var quizPage = document.querySelector(".container");
 var questionEl = document.querySelector("#quest-text");
-var choiceEl = document.querySelectorAll(".multi-choice");
+var choiceEl = document.querySelectorAll(".choice");
 // var answerEl = document.querySelector(".answer-text");
 // var feedbackEl = document.querySelector(".answerShow");
 var feedbackEl = document.querySelector("#right-wrong", ".answerShow");
@@ -35,7 +35,7 @@ function beginQuiz() {
 }
 
 function titleReturn() {
-    window.location.href="index.html"
+    window.location.href="index new.html"
 };
 
 if (beginEl) {
