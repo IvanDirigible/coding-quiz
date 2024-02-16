@@ -1,0 +1,71 @@
+:root {
+    --lightP: #df73ff;
+    --darkP: #291749;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.view-scores {
+    color: var(--lightP);
+}
+
+.timer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: left; */
+}
+
+.title-page {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.container {
+    margin: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.multi-choice {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    color: white;
+    font-size: 2em;
+    width: 50%;
+    text-align: left;
+    background-color: var(--darkP);
+    border-radius: 12px;
+}
+
+button:hover {
+    background-color: var(--lightP);
+}
+
+/* High Score Page Styling */
+.score-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.score-options {
+    display: flex;
+    flex-direction: row, 1, 3;
+}
+
+/* .answer-show {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+} */
